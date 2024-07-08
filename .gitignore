@@ -1,0 +1,70 @@
+# IDE related
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+*.cache/
+*.log
+
+# Maven related
+target/
+pom.xml.releaseBackup
+pom.xml.tag*
+pom.xml.next*
+release.properties
+dependency-reduced-pom.xml
+mvnw.*
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle related
+.gradle/
+build/
+gradlew
+gradlew.bat
+local.properties
+.settings/
+**/gradle-wrapper.jar
+**/gradle-wrapper.properties
+
+# Eclipse specific
+.classpath
+.factorypath
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.ds_store
+*.cdv
+
+# IntelliJ IDEA specific
+out/
+*.iws
+*.ipr
+*.iwl
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+
+# Generic ignore patterns
+*.log
+*.log.*
+*.tmp
+*.bak
+*.swp
+*~
+# Ignore Spring Boot's jar packaging file
+*.jar.original
+
+# Ignore Docker files
+.DS_Store
+.dockerfile*
+.dockerignore

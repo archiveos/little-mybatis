@@ -1,0 +1,11 @@
+server:
+  port: 7397
+
+mybatis:
+  datasource:
+    driver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.70.61:3306/mybatis?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    mapper-locations: mapper/User_Mapper.xml
+    base-dao-package: com.cracker.middleware.test.dao
